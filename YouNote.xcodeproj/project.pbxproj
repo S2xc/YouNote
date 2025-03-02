@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0E6486EF2D73CB6200715AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6486D02D73CB5F00715AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6486D72D73CB5F00715AFE;
+			remoteInfo = YouNote;
+		};
+		0E6486F92D73CB6200715AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6486D02D73CB5F00715AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6486D72D73CB5F00715AFE;
+			remoteInfo = YouNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E6486D82D73CB5F00715AFE /* YouNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6486EE2D73CB6200715AFE /* YouNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6486F82D73CB6200715AFE /* YouNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0E6486DA2D73CB5F00715AFE /* YouNote */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YouNote;
+			sourceTree = "<group>";
+		};
+		0E6486F12D73CB6200715AFE /* YouNoteTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YouNoteTests;
+			sourceTree = "<group>";
+		};
+		0E6486FB2D73CB6200715AFE /* YouNoteUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YouNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6486D52D73CB5F00715AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6486EB2D73CB6200715AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6486F52D73CB6200715AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6486CF2D73CB5F00715AFE = {
+			isa = PBXGroup;
+			children = (
+				0E6486DA2D73CB5F00715AFE /* YouNote */,
+				0E6486F12D73CB6200715AFE /* YouNoteTests */,
+				0E6486FB2D73CB6200715AFE /* YouNoteUITests */,
+				0E6486D92D73CB5F00715AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E6486D92D73CB5F00715AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E6486D82D73CB5F00715AFE /* YouNote.app */,
+				0E6486EE2D73CB6200715AFE /* YouNoteTests.xctest */,
+				0E6486F82D73CB6200715AFE /* YouNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E6486D72D73CB5F00715AFE /* YouNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6487022D73CB6200715AFE /* Build configuration list for PBXNativeTarget "YouNote" */;
+			buildPhases = (
+				0E6486D42D73CB5F00715AFE /* Sources */,
+				0E6486D52D73CB5F00715AFE /* Frameworks */,
+				0E6486D62D73CB5F00715AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0E6486DA2D73CB5F00715AFE /* YouNote */,
+			);
+			name = YouNote;
+			packageProductDependencies = (
+			);
+			productName = YouNote;
+			productReference = 0E6486D82D73CB5F00715AFE /* YouNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E6486ED2D73CB6200715AFE /* YouNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6487052D73CB6200715AFE /* Build configuration list for PBXNativeTarget "YouNoteTests" */;
+			buildPhases = (
+				0E6486EA2D73CB6200715AFE /* Sources */,
+				0E6486EB2D73CB6200715AFE /* Frameworks */,
+				0E6486EC2D73CB6200715AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6486F02D73CB6200715AFE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0E6486F12D73CB6200715AFE /* YouNoteTests */,
+			);
+			name = YouNoteTests;
+			packageProductDependencies = (
+			);
+			productName = YouNoteTests;
+			productReference = 0E6486EE2D73CB6200715AFE /* YouNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E6486F72D73CB6200715AFE /* YouNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6487082D73CB6200715AFE /* Build configuration list for PBXNativeTarget "YouNoteUITests" */;
+			buildPhases = (
+				0E6486F42D73CB6200715AFE /* Sources */,
+				0E6486F52D73CB6200715AFE /* Frameworks */,
+				0E6486F62D73CB6200715AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6486FA2D73CB6200715AFE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0E6486FB2D73CB6200715AFE /* YouNoteUITests */,
+			);
+			name = YouNoteUITests;
+			packageProductDependencies = (
+			);
+			productName = YouNoteUITests;
+			productReference = 0E6486F82D73CB6200715AFE /* YouNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E6486D02D73CB5F00715AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0E6486D72D73CB5F00715AFE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0E6486ED2D73CB6200715AFE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0E6486D72D73CB5F00715AFE;
+					};
+					0E6486F72D73CB6200715AFE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0E6486D72D73CB5F00715AFE;
+					};
+				};
+			};
+			buildConfigurationList = 0E6486D32D73CB5F00715AFE /* Build configuration list for PBXProject "YouNote" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E6486CF2D73CB5F00715AFE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0E6486D92D73CB5F00715AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E6486D72D73CB5F00715AFE /* YouNote */,
+				0E6486ED2D73CB6200715AFE /* YouNoteTests */,
+				0E6486F72D73CB6200715AFE /* YouNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6486D62D73CB5F00715AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6486EC2D73CB6200715AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6486F62D73CB6200715AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E6486D42D73CB5F00715AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6486EA2D73CB6200715AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6486F42D73CB6200715AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E6486F02D73CB6200715AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6486D72D73CB5F00715AFE /* YouNote */;
+			targetProxy = 0E6486EF2D73CB6200715AFE /* PBXContainerItemProxy */;
+		};
+		0E6486FA2D73CB6200715AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6486D72D73CB5F00715AFE /* YouNote */;
+			targetProxy = 0E6486F92D73CB6200715AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E6487002D73CB6200715AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E6487012D73CB6200715AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0E6487032D73CB6200715AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YouNote/YouNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YouNote/Preview Content\"";
+				DEVELOPMENT_TEAM = 4736ZZ9JXJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inculin.YouNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0E6487042D73CB6200715AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YouNote/YouNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YouNote/Preview Content\"";
+				DEVELOPMENT_TEAM = 4736ZZ9JXJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inculin.YouNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0E6487062D73CB6200715AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4736ZZ9JXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inculin.YouNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YouNote";
+			};
+			name = Debug;
+		};
+		0E6487072D73CB6200715AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4736ZZ9JXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inculin.YouNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YouNote";
+			};
+			name = Release;
+		};
+		0E6487092D73CB6200715AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4736ZZ9JXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inculin.YouNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = YouNote;
+			};
+			name = Debug;
+		};
+		0E64870A2D73CB6200715AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4736ZZ9JXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inculin.YouNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = YouNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E6486D32D73CB5F00715AFE /* Build configuration list for PBXProject "YouNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6487002D73CB6200715AFE /* Debug */,
+				0E6487012D73CB6200715AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6487022D73CB6200715AFE /* Build configuration list for PBXNativeTarget "YouNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6487032D73CB6200715AFE /* Debug */,
+				0E6487042D73CB6200715AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6487052D73CB6200715AFE /* Build configuration list for PBXNativeTarget "YouNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6487062D73CB6200715AFE /* Debug */,
+				0E6487072D73CB6200715AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6487082D73CB6200715AFE /* Build configuration list for PBXNativeTarget "YouNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6487092D73CB6200715AFE /* Debug */,
+				0E64870A2D73CB6200715AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E6486D02D73CB5F00715AFE /* Project object */;
+}
