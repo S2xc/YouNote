@@ -5,6 +5,7 @@ import SwiftData
 final class Note {
     var title: String
     var content: String
+    var contentData: Data? // Для хранения форматированного текста
     var tags: [String]
     var category: String
     var isFavorite: Bool
@@ -15,6 +16,7 @@ final class Note {
     init(title: String, content: String, tags: [String] = [], category: String = "Uncategorized", isFavorite: Bool = false, color: String = "blue") {
         self.title = title
         self.content = content
+        self.contentData = nil // Изначально нет форматированного текста
         self.tags = tags
         self.category = category
         self.isFavorite = isFavorite
